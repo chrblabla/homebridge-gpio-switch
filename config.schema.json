@@ -1,0 +1,20 @@
+{
+    "pluginAlias": "GPIOSwitch",
+    "pluginType": "accessory",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "pin": {
+                "title": "GPIO Pin",
+                "type": "integer",
+                "required": true
+            }
+        }
+    }
+}
